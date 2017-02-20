@@ -44,7 +44,7 @@ lazy val publishingSettings = Seq(
       Some("releases" at nexus + "service/local/staging/deploy/maven2")
   },
   pomExtra :=
-    <url>https://github.com/ldaniels528/scalajs-node-npm</url>
+    <url>https://github.com/scalajs-io/dom-html</url>
       <licenses>
         <license>
           <name>MIT License</name>
