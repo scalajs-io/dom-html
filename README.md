@@ -32,6 +32,14 @@ $ sbt test
 
 ### Examples
 
+```scala
+import io.scalajs.JSON
+import scalajs.js
+
+val result = JSON.parseAs[js.Object]("""{"x":5}""", { (key: js.Any, value: js.Any) => value }: js.Function)
+println(JSON.stringify(result)) // {"x":5}
+```
+
 In some cases, the NodeList is a live collection, which means that changes in the DOM are reflected in the collection. 
 For example, Node.childNodes is live:
 
