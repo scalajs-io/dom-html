@@ -6,7 +6,7 @@ import io.scalajs.dom.html.canvas.webgl.{WebGL2RenderingContext, WebGLRenderingC
 import io.scalajs.dom.html.{Blob, File, HTMLElement}
 import io.scalajs.util.PromiseHelper._
 
-import scala.concurrent.Promise
+import scala.concurrent.Future
 import scala.scalajs.js
 
 /**
@@ -69,7 +69,7 @@ trait HTMLCanvasElement extends HTMLElement {
     * @param contextAttributes You can use several context attributes when creating your rendering context
     * @return a [[RenderingContext]] implementation
     */
-  def getContext(contextType: String, contextAttributes: CanvasAttributeOptions = null): RenderingContext = js.native
+  def getContext(contextType: String, contextAttributes: CanvasAttributeOptions = js.native): RenderingContext = js.native
 
   /**
     * Returns a [[File]] object representing the image contained in the canvas; this file is a memory-based file, with the
@@ -147,7 +147,7 @@ object HTMLCanvasElement {
     }
 
     @inline
-    def toBlobFuture(mimeType: String = null, qualityArgument: JDouble = null): Promise[Blob] = {
+    def toBlobFuture(mimeType: String = null, qualityArgument: JDouble = null): Future[Blob] = {
       promiseCallback1[Blob](canvas.toBlob(_, mimeType, qualityArgument))
     }
 

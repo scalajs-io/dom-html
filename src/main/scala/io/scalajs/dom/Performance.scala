@@ -1,6 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Performance.now() method returns a DOMHighResTimeStamp, measured in milliseconds, accurate to
@@ -9,6 +10,7 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("Performance")
 class Performance extends js.Object {
 
   /**

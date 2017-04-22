@@ -1,7 +1,7 @@
 package io.scalajs.dom.html
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.|
 
 /**
@@ -111,7 +111,7 @@ class URL(urlString: String, baseURLString: String) extends js.Object {
 }
 
 @js.native
-@JSName("URL")
+@JSGlobal("URL")
 object URL extends js.Object {
 
   /**

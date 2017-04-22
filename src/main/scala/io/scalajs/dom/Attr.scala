@@ -1,6 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Attr interface inherits from Node and represents a single attribute of an Element node.
@@ -12,6 +13,7 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("Attr")
 class Attr extends Node {
 
   /**

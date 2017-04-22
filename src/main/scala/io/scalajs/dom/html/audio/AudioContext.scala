@@ -1,6 +1,7 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The AudioContext interface represents an audio-processing graph built from audio modules linked together,
@@ -12,6 +13,7 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal
 class AudioContext extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

@@ -1,7 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Range interface represents a fragment of a document that can contain nodes and parts of text nodes.
@@ -13,6 +13,7 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("Range")
 class Range() extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -164,7 +165,7 @@ class Range() extends js.Object {
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("Range")
+@JSGlobal("Range")
 object Range extends js.Object {
 
   /**

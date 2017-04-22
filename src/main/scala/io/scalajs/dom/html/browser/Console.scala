@@ -1,6 +1,7 @@
 package io.scalajs.dom.html.browser
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The console module provides a simple debugging console that is similar to the JavaScript console mechanism
@@ -16,6 +17,7 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("Console")
 class Console extends js.Object {
 
   /**

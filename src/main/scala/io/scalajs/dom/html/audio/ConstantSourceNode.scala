@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Constant Source Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class ConstantSourceNode() extends js.Object {}
+@JSGlobal
+class ConstantSourceNode() extends js.Object

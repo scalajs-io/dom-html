@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Wave Shaper Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class WaveShaperNode extends js.Object {}
+@JSGlobal("WaveShaperNode")
+class WaveShaperNode extends js.Object

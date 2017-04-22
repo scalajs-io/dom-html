@@ -1,12 +1,14 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Processing Instruction
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("ProcessingInstruction")
 class ProcessingInstruction extends js.Object {
 
   /**

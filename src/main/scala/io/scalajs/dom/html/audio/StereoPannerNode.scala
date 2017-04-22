@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Stereo Panner Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class StereoPannerNode extends js.Object {}
+@JSGlobal("StereoPannerNode")
+class StereoPannerNode extends js.Object

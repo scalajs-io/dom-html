@@ -1,6 +1,7 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.typedarray.Float32Array
 
 /**
@@ -17,6 +18,7 @@ import scala.scalajs.js.typedarray.Float32Array
   * @see https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer
   */
 @js.native
+@JSGlobal
 class AudioBuffer() extends js.Object {
 
   /////////////////////////////////////////////////////////////////////////////////

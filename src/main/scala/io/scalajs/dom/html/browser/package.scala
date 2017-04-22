@@ -3,7 +3,7 @@ package io.scalajs.dom.html
 import io.scalajs.dom.{Document, Performance}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * browser package object
@@ -16,23 +16,23 @@ package object browser {
   /////////////////////////////////////////////////////////////////////////////////
 
   @js.native
-  @JSName("console")
+  @JSGlobal("console")
   object console extends Console
 
   @js.native
-  @JSName("document")
+  @JSGlobal("document")
   object document extends Document
 
   @js.native
-  @JSName("location")
+  @JSGlobal("location")
   object location extends Location
 
   @js.native
-  @JSName("performance")
+  @JSGlobal("performance")
   object performance extends Performance
 
   @js.native
-  @JSName("window")
+  @JSGlobal("window")
   object window extends Window
 
   /////////////////////////////////////////////////////////////////////////////////
@@ -40,31 +40,31 @@ package object browser {
   /////////////////////////////////////////////////////////////////////////////////
 
   @js.native
-  @JSName("decodeURI")
+  @JSGlobal("decodeURI")
   object decodeURI extends RawApplyFunction[String, String]
 
   @js.native
-  @JSName("encodeURI")
+  @JSGlobal("encodeURI")
   object encodeURI extends RawApplyFunction[String, String]
 
   @js.native
-  @JSName("decodeURIComponent")
+  @JSGlobal("decodeURIComponent")
   object decodeURIComponent extends RawApplyFunction[String, String]
 
   @js.native
-  @JSName("encodeURIComponent")
+  @JSGlobal("encodeURIComponent")
   object encodeURIComponent extends RawApplyFunction[String, String]
 
   @js.native
-  @JSName("eval")
+  @JSGlobal("eval")
   object eval extends RawApplyFunction[String, js.Any]
 
   @js.native
-  @JSName("escape")
+  @JSGlobal("escape")
   object escape extends RawApplyFunction[String, String]
 
   @js.native
-  @JSName("unescape")
+  @JSGlobal("unescape")
   object unescape extends RawApplyFunction[String, String]
 
 }

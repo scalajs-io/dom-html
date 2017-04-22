@@ -1,6 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The CDATASection interface inherits from CharacterData through Text, and represents a CDATA section in XML.
@@ -13,4 +14,5 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("CDATASection")
 class CDATASection extends Text

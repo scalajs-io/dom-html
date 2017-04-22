@@ -1,6 +1,7 @@
 package io.scalajs.dom.html.browser
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * Window Location object
@@ -8,6 +9,7 @@ import scala.scalajs.js
   * @see https://developer.mozilla.org/en-US/docs/Web/API/Location
   */
 @js.native
+@JSGlobal("Location")
 class Location extends js.Object {
 
   ///////////////////////////////////////////////////////////////

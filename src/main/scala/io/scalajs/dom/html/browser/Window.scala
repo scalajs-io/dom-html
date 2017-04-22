@@ -6,7 +6,7 @@ import io.scalajs.dom.ws.WebSocket
 import io.scalajs.dom.{Document, Element, Performance}
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSBracketAccess
+import scala.scalajs.js.annotation.{JSBracketAccess, JSGlobal}
 import scala.scalajs.js.|
 
 /**
@@ -15,6 +15,7 @@ import scala.scalajs.js.|
   * @see https://developer.mozilla.org/en-US/docs/Web/API/Window
   */
 @js.native
+@JSGlobal("Window")
 class Window extends js.Object {
 
   ///////////////////////////////////////////////////////////////

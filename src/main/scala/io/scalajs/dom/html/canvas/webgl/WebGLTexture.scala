@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.canvas.webgl
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The WebGLTexture interface is part of the WebGL API and represents an opaque texture object providing storage
@@ -10,5 +10,5 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("WebGLTexture")
-class WebGLTexture extends js.Object {}
+@JSGlobal("WebGLTexture")
+class WebGLTexture extends js.Object

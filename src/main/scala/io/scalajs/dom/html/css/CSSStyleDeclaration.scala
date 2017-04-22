@@ -3,6 +3,7 @@ package io.scalajs.dom.html.css
 import CSSStyleDeclaration.CSSPropertyPriority
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The CSS Style Declaration object represents a collection of CSS property-value pairs.
@@ -11,6 +12,7 @@ import scala.scalajs.js
   * @see https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration
   */
 @js.native
+@JSGlobal("CSSStyleDeclaration")
 class CSSStyleDeclaration extends js.Object {
 
   ///////////////////////////////////////////////////////////////

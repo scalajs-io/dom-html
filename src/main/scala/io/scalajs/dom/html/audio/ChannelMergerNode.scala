@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Channel Merger Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class ChannelMergerNode extends js.Object {}
+@JSGlobal
+class ChannelMergerNode extends js.Object

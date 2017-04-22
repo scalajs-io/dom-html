@@ -1,7 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The DOMHighResTimeStamp type is a double and is used to store a time value. The value could be a discrete point in
@@ -13,5 +13,5 @@ import scala.scalajs.js.annotation.JSName
   * @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("DOMHighResTimeStamp")
+@JSGlobal("DOMHighResTimeStamp")
 class DOMHighResTimeStamp(timestamp: Double) extends js.Object

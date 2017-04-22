@@ -1,7 +1,7 @@
 package io.scalajs.dom.html.canvas.webgl
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The WebGLShader is part of the WebGL API and can either be a vertex or a fragment shader.
@@ -10,5 +10,5 @@ import scala.scalajs.js.annotation.JSName
   *      @author lawrence.daniels@gmail.com
   */
 @js.native
-@JSName("WebGLShader")
-class WebGLShader extends js.Object {}
+@JSGlobal("WebGLShader")
+class WebGLShader extends js.Object

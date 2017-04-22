@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Dynamics Compressor Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class DynamicsCompressorNode extends js.Object {}
+@JSGlobal
+class DynamicsCompressorNode extends js.Object

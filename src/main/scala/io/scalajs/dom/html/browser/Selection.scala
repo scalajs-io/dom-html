@@ -4,6 +4,7 @@ import io.scalajs.dom
 import io.scalajs.dom.Node
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A Selection object represents the range of text selected by the user or the current position of the caret.
@@ -18,6 +19,7 @@ import scala.scalajs.js
   * @see https://developer.mozilla.org/en-US/docs/Web/API/Selection
   */
 @js.native
+@JSGlobal("Selection")
 class Selection extends js.Object {
 
   ///////////////////////////////////////////////////////////////

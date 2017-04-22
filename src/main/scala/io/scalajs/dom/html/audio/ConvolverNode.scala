@@ -1,9 +1,12 @@
 package io.scalajs.dom.html.audio
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
-  * Created by ldaniels on 12/16/16.
+  * Convolver Node
+  * @author lawrence.daniels@gmail.com
   */
 @js.native
-class ConvolverNode extends js.Object {}
+@JSGlobal
+class ConvolverNode extends js.Object

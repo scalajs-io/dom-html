@@ -3,7 +3,7 @@ package io.scalajs.dom.ws
 import io.scalajs.dom.html.Blob
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 import scala.scalajs.js.typedarray.ArrayBuffer
 import scala.scalajs.js.|
 
@@ -20,6 +20,7 @@ import scala.scalajs.js.|
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("WebSocket")
 class WebSocket(endpoint: String, protocols: String*) extends js.Object {
 
   ///////////////////////////////////////////////////////////////
@@ -111,7 +112,7 @@ class WebSocket(endpoint: String, protocols: String*) extends js.Object {
 }
 
 @js.native
-@JSName("WebSocket")
+@JSGlobal("WebSocket")
 object WebSocket extends js.Object {
 
   /**

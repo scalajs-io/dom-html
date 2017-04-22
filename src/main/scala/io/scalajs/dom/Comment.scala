@@ -1,6 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The Comment interface represents textual notations within markup; although it is generally not visually shown,
@@ -10,4 +11,5 @@ import scala.scalajs.js
   * @author lawrence.daniels@gmail.com
   */
 @js.native
+@JSGlobal("Comment")
 class Comment extends CharacterData

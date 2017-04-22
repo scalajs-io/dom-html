@@ -3,6 +3,7 @@ package io.scalajs.dom
 import io.scalajs.dom.collection.NamedNodeMap
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The DocumentType interface inherits from Node, and provides access to the attributes of a Document Type Declaration (DTD).
@@ -16,6 +17,7 @@ import scala.scalajs.js
   * @see http://reference.sitepoint.com/javascript/DocumentType/notations
   */
 @js.native
+@JSGlobal("DocumentType")
 class DocumentType extends Node {
 
   /**

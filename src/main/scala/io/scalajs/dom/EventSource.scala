@@ -1,7 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.JSName
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * The EventSource interface is used to receive server-sent events. It connects to a server over HTTP
@@ -10,7 +10,7 @@ import scala.scalajs.js.annotation.JSName
   * @see https://developer.mozilla.org/en-US/docs/Web/API/EventSource
   */
 @js.native
-@JSName("EventSource")
+@JSGlobal("EventSource")
 class EventSource(val url: String) extends EventTarget {
 
   /////////////////////////////////////////////////////////////////////////////////

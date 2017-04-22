@@ -1,6 +1,7 @@
 package io.scalajs.dom.html.browser
 
 import scala.scalajs.js
+import scala.scalajs.js.annotation.JSGlobal
 
 /**
   * A MediaQueryList object maintains a list of media queries on a document, and handles sending notifications to
@@ -12,6 +13,7 @@ import scala.scalajs.js
   * @see https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList
   */
 @js.native
+@JSGlobal("MediaQueryList")
 class MediaQueryList extends js.Object {
 
   /**
