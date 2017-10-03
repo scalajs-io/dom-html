@@ -8,7 +8,7 @@ A collection of DOM-HTML bindings for Scala.js
 
 ### Build Dependencies
 
-* [SBT v0.13.13](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 ### Build/publish the SDK locally
 
@@ -89,7 +89,7 @@ console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.");
 To add the `DOM-HTML` bindings to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs" %%% "dom-html" % "0.4.0"
+libraryDependencies += "io.scalajs" %%% "dom-html" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
