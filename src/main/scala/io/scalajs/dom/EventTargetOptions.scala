@@ -1,7 +1,7 @@
 package io.scalajs.dom
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * An options object that specifies characteristics about the event listener.
@@ -15,7 +15,7 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   * @param mozSystemGroup Available only in code running in XBL or in Firefox's chrome, it is a Boolean defining
   *                       if the listener is added to the system group.
   */
-@ScalaJSDefined
+
 class EventTargetOptions(val capture: js.UndefOr[Boolean] = js.undefined,
                          val once: js.UndefOr[Boolean] = js.undefined,
                          val passive: js.UndefOr[Boolean] = js.undefined,

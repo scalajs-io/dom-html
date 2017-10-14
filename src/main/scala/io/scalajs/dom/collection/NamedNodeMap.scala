@@ -1,13 +1,12 @@
 package io.scalajs.dom.collection
 
 import io.scalajs.collection.JsCollection
-import io.scalajs.dom.Attr
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.JSBracketAccess
 
 /**
-  * The NamedNodeMap interface represents a collection of [[Attr]] objects. Objects inside a NamedNodeMap
+  * The NamedNodeMap interface represents a collection of [[io.scalajs.dom.Attr]] objects. Objects inside a NamedNodeMap
   * are not in any particular order, unlike [[NodeList]], although they may be accessed by an index as
   * in an array.
   *

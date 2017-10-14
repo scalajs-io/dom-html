@@ -1,7 +1,6 @@
 package io.scalajs.dom.collection
 
 import io.scalajs.collection.{Iterator, JsCollection}
-import io.scalajs.dom.Node
 
 import scala.scalajs.js
 import scala.scalajs.js.JSConverters._
@@ -33,7 +32,7 @@ trait NodeList[A] extends JsCollection[A] {
   /**
     * Returns the element at the specified index
     * @param index the specified index
-    * @return the [[Node element]] at the specified index
+    * @return the [[io.scalajs.dom.Node element]] at the specified index
     */
   @JSBracketAccess
   override def apply(index: Int): A = js.native
@@ -106,7 +105,7 @@ object NodeList {
 
   }
 
-  @ScalaJSDefined
+
   class EntrySet[+A](val key: Int, val value: A) extends js.Object
 
 }

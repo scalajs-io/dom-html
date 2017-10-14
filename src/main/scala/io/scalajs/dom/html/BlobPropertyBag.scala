@@ -1,7 +1,7 @@
 package io.scalajs.dom.html
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
+
 
 /**
   * Blob Property Bag
@@ -13,6 +13,6 @@ import scala.scalajs.js.annotation.ScalaJSDefined
   *                the blob without change.
   * lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
+
 class BlobPropertyBag(var `type`: js.UndefOr[String] = js.undefined, var endings: js.UndefOr[String] = js.undefined)
     extends js.Object

@@ -89,7 +89,7 @@ console.log("Call to doSomething took " + (t1 - t0) + " milliseconds.");
 To add the `DOM-HTML` bindings to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs" %%% "dom-html" % "0.4.1"
+libraryDependencies += "io.scalajs" %%% "dom-html" % "0.4.2"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
