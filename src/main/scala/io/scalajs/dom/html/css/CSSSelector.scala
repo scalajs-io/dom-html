@@ -15,4 +15,6 @@ class CSSSelector extends js.Object {
 
   def style: Style = js.native
 
+  def textContent: String = js.native
+
 }
